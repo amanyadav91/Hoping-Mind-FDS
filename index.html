@@ -6,6 +6,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!--Title tag used to show title-->
   <title>HTML Tutoral</title>
+  <style>
+    *{
+      background-color: blueviolet;
+    }
+    p
+    {
+      color: black;
+    }
+    .task2
+    {
+      color: aquamarine;
+    }
+    #task3
+    {
+      color: brown;
+    }
+  
+
+  </style>
 </head>
 
 <body>
@@ -28,7 +47,7 @@
   <a href="www.google.com" target="_blank">google</a>
   <!-- Use Image tag for image-->
 
-
+<hr> 
 
   <!--Project of Date 26 Oct -->
   <h1><b>Cricket in India</b></h1>
@@ -57,7 +76,111 @@
     </p>
     <h2><b>Lets have a look at all 50-50 worldcup:</b></h2>
     <!--Table Section-->
-     
+    <table>
+      <tr>
+        <th>Company</th>
+        <th>Contact</th>
+        <th>Country</th>
+      </tr>
+      <tr>
+        <td>Alfreds Futterkiste</td>
+        <td>Maria Anders</td>
+        <td>Germany</td>
+      </tr>
+      <tr>
+        <td>Centro comercial Moctezuma</td>
+        <td>Francisco Chang</td>
+        <td>Mexico</td>
+      </tr>
+    </table>
+    <table>
+      <thead>
+        <tr>
+          <th>Year</th>
+          <th>Winner</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1975</td>
+          <td>West Indies</td>
+        </tr>
+        <tr>
+          <td>1979</td>
+          <td>West Indies</td>
+        </tr>
+        <tr>
+          <td>1983</td>
+          <td>India</td>
+        </tr>
+        <tr>
+          <td>1987</td>
+          <td>Australia</td>
+        </tr>
+        <tr>
+          <td>1992</td>
+          <td>Pakistan</td>
+        </tr>
+        <tr>
+          <td>1996</td>
+          <td>Sri Lanka</td>
+        </tr>
+        <tr>
+          <td>1999</td>
+          <td>Australia</td>
+        </tr>
+        <tr>
+          <td>2003</td>
+          <td>Australia</td>
+        </tr>
+        <tr>
+          <td>2007</td>
+          <td>Australia</td>
+        </tr>
+  
+       </tbody>
+  
+      </table>
+      <form>
+        <label for="Contact Form">
+         Contect Form
+        <label for="full-name">Full Name:</label><br>
+        <input type="text" id="full-name" name="full-name"><br>
+    
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+    
+        <label for="phone-number">Phone Number:</label><br>
+        <input type="tel" id="phone-number" name="phone-number"><br>
+    
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password"><br>
+    
+        <label for="gender">Gender:</label><br>
+        <select id="gender" name="gender">
+          <option value="">--Please choose an option--</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option>
+        </select><br>
+    
+        <label for="address">Address:</label><br>
+          <textarea id="address" name="address"></textarea><br>
+    
+          <input type="submit" value="Register">
+        </label>
+          </form>
+
+
+          <Hr>
+            <!--CSS Selector 27 OCT-->
+          <H1>Css Selectors</H1>
+          <h1>Applying css to diffrent part of html</h1>
+          <p>1. The element based on their HTML tag name</p>
+          <p class="task2">2.The elements based on the class value attribute</p>
+            <p id="task3">3.the element based on the value of id attribute</p>
+            <input type="text" placeholder="4.the element based on the arrtibute">
+            <p>5.For all the content that are stored in the page</p>
 </body> 
 
 </html>
